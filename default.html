@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obasphere.com</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        body{
+            background-image: url("img_mountains.jpg");
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;font-size: 40px; font-family: wide latin;">Welcome!</h1>
+    <marquee><h3 style="font-size: 30px; font-family: Algerian;" >Fill in the following</h3></marquee>
+  <div class="container">
+     <form action="#">
+        First Name <br>
+        <input type="text" placeholder="name" name="firstname">
+        <br><br>
+        Other Names<br>
+        <input type="text" placeholder="other names" name="other names" >
+        <br><br>
+        D.O.B <br>
+        <input type="date" name="Birthday">
+        <br><br>
+        Telephone: <input type="tel" placeholder="Mobile number" name="phone">
+        <br><br>
+        Gender <br>
+        <input type="radio" name="gender" value="male" > Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other  
+        <br><br>
+        Status <br>
+        <select class="option" name="Status">
+        <option value="Single">Single</option>
+        <option value="Married">Married</option>
+        <option value="Widow">Widow</option>
+    </select>
+    <br><br>
+    Country <br>
+    <input type="text" name="country">
+    <br><br>
+    Tell us little about yourself <br>
+    <textarea style="background-color: rgb(215, 241, 233);" name="text"  cols="30" rows="10"></textarea>
+    <br><br>
+    <input type="submit" name="submit"> 
+</form>
+</div>
+    <br><br>
+  <div class="button"> 
+    <form action="main.html">
+        <button type="submit">logout</button>
+    </form>
+</div> 
+</body>  
+</html>

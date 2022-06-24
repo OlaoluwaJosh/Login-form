@@ -1,0 +1,117 @@
+body{
+    background-image: linear-gradient(90deg,violet, indigo);
+}
+input[type=email]{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password]{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button[type=submit]{
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 20px;
+    background-color: darkseagreen;
+    font-size: large;
+    font-family: Castelar;
+}
+button:hover{
+    color:#333;
+    opacity: 0.9;
+}
+div{
+
+    border-radius: 5px;
+    background-color: gainsboro;
+    padding: 30px;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+}
+legend{
+    text-align: center;
+    font-size: x-large;
+    font-family: Algerian;
+    text-shadow: 2px 2px 5px palevioletred;
+}
+
+/* Default html Styles Begins */
+.container{
+    background-image: linear-gradient(-90deg,white,rgb(113, 113, 163));
+    padding: 20px;
+    padding-right: 50px;
+    margin-left: 50px;
+    width: 600px;
+    height: 300px;
+    border: 2px solid darkslategrey;
+    text-decoration: none;
+    overflow-y: scroll;
+    margin: auto;
+}
+input[type=text]{
+    border: none;
+    background-color: rgb(215, 241, 233);
+    border-radius: 5px;
+    width: 50%;
+    margin: 10px 0;
+    box-sizing: border-box;
+    padding: 17px 20px;
+}
+input[type=tel]{
+    border: none;
+    background-color: rgb(215, 241, 233);
+    border-radius: 5px;
+    width: 50%;
+    margin: 10px 0;
+    box-sizing: border-box;
+    padding: 17px 20px;
+} 
+input[type=date]{
+    width: 40%;
+    background-color: rgb(215, 241, 233);
+    padding: 17px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.button{
+    width: 250px;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 20px;
+    background-color: darkseagreen;
+    font-size: large;
+    font-family: Castelar;
+    margin: auto;
+    margin-right: 20px;
+}
+.option{
+    width: 40%;
+    padding: 17px 20px;
+    background-color: rgb(215, 241, 233);
+    border: none;
+    border-radius: 5px;
+}
+input[type=submit]{
+    width: 20%;
+    padding: 10px 15px;
+    background-color:darkseagreen;
+    border-radius: 8px;
+    border: none;
+}
+input[type=submit]:hover{
+    color: #333;
+    opacity: 0.8;
+}
